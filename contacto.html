@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cineverse | Contacto</title>
+    <meta
+      name="description"
+      content="Formulario de contacto y registro de Cineverse."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="./index.html" class="brand" aria-label="Volver al inicio">
+          <img src="./img/logo.png" alt="Logo de Cineverse" class="brand-logo" />
+          <span>Cineverse</span>
+        </a>
+
+        <nav class="main-nav" aria-label="Navegación principal">
+          <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./catalogo.html">Catálogo</a></li>
+            <li><a href="./pelicula.html">Película</a></li>
+            <li><a href="./contacto.html" class="active">Contacto</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="contact-page">
+      <section class="container contact-layout">
+        <div class="contact-intro">
+          <p class="eyebrow">Comunidad</p>
+          <h1>Únete a Cineverse</h1>
+          <p>
+            Regístrate para recibir recomendaciones exclusivas, noticias de estrenos y acceso a
+            contenido especial pensado para fanáticos del cine.
+          </p>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <div class="form-field">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required />
+          </div>
+
+          <div class="form-field">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required />
+          </div>
+
+          <div class="form-field">
+            <label for="password">Contraseña</label>
+            <input type="password" id="password" name="password" placeholder="Crea una contraseña" required />
+          </div>
+
+          <div class="form-field">
+            <label for="interes">¿Qué te interesa más?</label>
+            <select id="interes" name="interes" required>
+              <option value="">Selecciona una opción</option>
+              <option value="accion">Acción</option>
+              <option value="comedia">Comedia</option>
+              <option value="ciencia">Ciencia ficción</option>
+              <option value="animacion">Animación</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos qué te gustaría ver en Cineverse" required></textarea>
+          </div>
+
+          <div class="form-check">
+            <input type="checkbox" id="acepto" name="acepto" required />
+            <label for="acepto">Acepto recibir novedades y promociones.</label>
+          </div>
+
+          <button type="submit" class="btn btn-primary form-button">Registrarme</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© 2026 Cineverse. Todos los derechos ficticios reservados.</p>
+        <nav aria-label="Navegación del pie de página">
+          <a href="./index.html">Inicio</a>
+          <a href="./catalogo.html">Catálogo</a>
+          <a href="./contacto.html">Contacto</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>

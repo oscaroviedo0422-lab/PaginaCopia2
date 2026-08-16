@@ -1,0 +1,7 @@
+# Secrets
+.env
+.env.*
+
+# Local generated data
+# Keep generated JSON in repo only after API retrieval is completed.
+# This file is used to avoid exposing API keys in GitHub Pages projects.
