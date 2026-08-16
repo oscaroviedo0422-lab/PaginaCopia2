@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Cineverse backdrop placeholder</title>
+  <desc id="desc">Backdrop placeholder for movie detail pages.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#101827"/>
+      <stop offset="100%" stop-color="#ff7a59"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="#090d17"/>
+  <rect width="1600" height="900" fill="url(#bg)" opacity="0.8"/>
+  <rect x="90" y="90" width="1420" height="720" rx="26" fill="none" stroke="#ffffff" stroke-opacity="0.18" stroke-width="4"/>
+  <circle cx="770" cy="440" r="180" fill="#ffffff" fill-opacity="0.08"/>
+  <path d="M690 310 L690 560 L940 435 Z" fill="#ffffff"/>
+  <text x="800" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="72" font-weight="700" fill="#ffffff">Cineverse</text>
+  <text x="800" y="715" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#edf3ff" opacity="0.8">Backdrop pendiente</text>
+</svg>
